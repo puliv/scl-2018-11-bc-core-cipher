@@ -1,14 +1,57 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Password Creator</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Teko:500" rel="stylesheet"> 
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1><strong>Sabemos 
+        <br>lo que es la 
+        <br>confianza.</strong></h1>
+    <div id="partOne">
+      <p>Creamos contraseñas cifrando texto con los mas altos estandares de seguridad.</p>
+        <button type="button" id="botonUno"> EMPEZAR </button>
     </div>
+    <br>
+    <div id="partTwo" style="display:none;"> 
+      <h2>Instrucciones</h2>
+      <p>Ingresa el texto y selecciona el número de espacios para desplazar el lugar de las letras. </p>
+      <input 
+      type="text"
+      id="textoIgresado"
+      placeholder="Ingresa tu texto aqui">
+      <!--Aqui el usuario puede ingresar texto-->
+      <br>
+      <h3>Elige un número:</h3>
+      <input
+      id="offSet"
+      type="list"
+      list="desplazamientos"
+      placeholder="0">
+      <!--Aqui el usuario puede elegir la cantidad de posiciones a desplazar-->
+      <br> 
+      <datalist id="desplazamientos">
+          <option value="0"></option>
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5"></option>
+      <!--que forma habrá para hacer más simple esta lista?-->
+      </datalist>
+      <br>
+      <button class="boton" id= "botonCifrar"> Cifrar </button>
+      <button class="boton" id= "botonDecifrar"> Decifrar </button>
+    </div>
+    <div id="partThree" style="display:none;">
+      <h4>Resultado</h4>
+      <input type="text" id="textoReady">
+      <br>
+      <!--Aqui saldrá el texto Cifrado o Decifrado-->
+      <button class="boton" id="volver">Inicio</button>
+      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
