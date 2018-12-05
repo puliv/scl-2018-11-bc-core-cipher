@@ -1,1 +1,92 @@
-/* Acá va tu código */
+body{
+    background-color: #000000;
+}
+h1{
+    color:white;
+    text-align: left;
+    font-family: arial, serif;
+    font-size: 90px;
+    border-bottom-style: solid;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0%;
+}
+#partOne{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#botonUno{
+    background-color: #000000;
+    padding: 10px 24px;
+    border-color : white;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+#partTwo{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#partTwo h2{
+    font-size: 60px;
+    border-bottom-style: solid;
+    font-family: 'Roboto', sans-serif;
+}
+#textoIgresado{
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+#partTwo h3{
+    font-size: 37px;
+    font-family: 'Roboto', sans-serif;
+}
+#botonCifrar{
+    background-color: #000000;
+    padding: 10px 24px;
+    border-color : white;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+#botonDecifrar{
+    background-color: #000000;
+    padding: 10px 24px;
+    border-color : white;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+#partThree {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;  
+    padding: 0px;
+}
+#partThree h4{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-color: white;
+}
+#textoReady{
+    padding-top: 0px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+#volver{
+    background-color: #000000;
+    padding: 10px 24px;
+    border-color : white;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
