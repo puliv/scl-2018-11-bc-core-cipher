@@ -7,7 +7,9 @@ window.cipher = {
             
       if (x >= 65 && x <= 90) {
         let codigoEncriptado = (x - 65 + offset) % 26 + 65;
-        
+        if (codigoEncriptado<65){
+          codigoEncriptado +=26;
+        }
         result += String.fromCharCode(codigoEncriptado);
       }
     }
@@ -20,9 +22,11 @@ window.cipher = {
     for (let i = 0; i < inputText.length; i++) {
       let x = inputText.charCodeAt(i);
             
-      if (x >= 65 && x <= 90) {
+      if (x >= 65 && x <= 90){
         let codigoEncriptado = (x - 65 - offset) % 26 + 65;
-        
+        if (codigoEncriptado<65){
+          codigoEncriptado+=26;
+        } 
         result += String.fromCharCode(codigoEncriptado);
       }
     }
