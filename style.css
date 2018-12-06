@@ -16,7 +16,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
-#botonUno{
+.boton{
     background-color: #000000;
     padding: 10px 24px;
     border-color : white;
@@ -24,6 +24,9 @@ h1{
     color:white;
     text-align: center;
     font-size: 18px;
+}
+#botonCifrar{
+    margin-right: 30px;
 }
 #partTwo{
     color: white;
@@ -44,24 +47,6 @@ h1{
     font-size: 37px;
     font-family: 'Roboto', sans-serif;
 }
-#botonCifrar{
-    background-color: #000000;
-    padding: 10px 24px;
-    border-color : white;
-    border-radius: 10px;
-    color:white;
-    text-align: center;
-    font-size: 18px;
-}
-#botonDecifrar{
-    background-color: #000000;
-    padding: 10px 24px;
-    border-color : white;
-    border-radius: 10px;
-    color:white;
-    text-align: center;
-    font-size: 18px;
-}
 #partThree {
     color: white;
     text-align: center;
@@ -77,16 +62,11 @@ h1{
     border-color: white;
 }
 #textoReady{
-    padding-top: 0px;
+    color: black;
+    margin-top: 0px;
     padding-right: 150px;
     padding-bottom: 150px;
 }
 #volver{
-    background-color: #000000;
-    padding: 10px 24px;
-    border-color : white;
-    border-radius: 10px;
-    color:white;
-    text-align: center;
-    font-size: 18px;
+    margin-top: 30px;
 }
