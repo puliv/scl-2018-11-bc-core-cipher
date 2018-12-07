@@ -2,22 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Password Creator</title>
+    <title>TextCucho</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Teko:500" rel="stylesheet"> 
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600,900,900i" rel="stylesheet">   </head>
   <body>
+     
     <header>
-      <h1><strong>Sabemos 
-        <br>lo que es la 
-        <br>confianza.</strong></h1>
+        <h1><strong>TextCucho</strong></h1>
+      <h2><strong>Sabemos 
+        <br>que significa 
+        <br>la confianza.</strong></h2>
     <div id="partOne">
-      <p>Creamos contraseñas cifrando texto con los mas altos estandares de seguridad.</p>
-        <button class="boton" id="botonUno"> EMPEZAR </button>
+      <p>“No hay problema que no podamos resolver juntos, 
+        <br>y muy pocos que podamos resolver por nosotros mismos",</p>
+        <button class="boton" id="botonDos">Que es TextCucho</button>
+        <button class="boton" id="botonUno"> Empezar </button>
     </div>
     </header>
     <br>
-    <section>
+    <section>  
+        <div id="aboutTxtCh" style="display:none;"> 
+            <h1 class="preguntas">¿Que es TxtCucho?</h1>
+         <p><img scr="abecedario.jpg" alt="abecedario">
+           Somos una plataforma que busca formas de enriquecer el ambiente laboral
+          <br>desarrollando soluciones en base a las opiniones y/o reclamos de lxs 
+          <br>funcionarixs de las distintas empresas que trabajan con nosotrxs, las 
+          <br>cuales encriptamos para mantener su privacidad a salvo.</p> 
+        
+        <h2 class="preguntas">¿Como puedo asegurarme de que no sabran quien soy?</h2>
+        <p>Contamos con un sistema de cifrado de maxima seguridad que asegura la
+          <br>confidencialidad absoluta de los testimonios e identidad de lxs trabajadorxs.</p>
+          <br>
+        <h3 clas="preguntas">¿Como cifran texto?</h3>  
+          <p>Ocupamos el metodo de Cifrado Cesar, una de las primeras modalidades de
+          <br>encriptado conocidas, creada por el Emperador romano Julio Cesar.
+          <br>Este es un tipo de cifrado por sustitución, es decir que cada letra del texto original 
+          <br>es reemplazada por otra que se encuentra un número fijo de posiciones mas 
+          <br>adelante en el mismo alfabeto</p>
+    </div>
     <div id="partTwo" style="display:none;"> 
       <h2>Instrucciones</h2>
       <p>Ingresa el texto y selecciona el número de espacios para desplazar el lugar de las letras. </p>
@@ -38,7 +60,7 @@
       <button class="boton" id= "botonCifrar"> Cifrar </button>
       <button class="boton" id= "botonDecifrar"> Decifrar </button>
     </div>
-    <div id="partThree" style="display:none;">
+      <div id="partThree" style="display:none;">
       <h4>Resultado</h4>
       <textarea id="textoReady"></textarea>
       <br>

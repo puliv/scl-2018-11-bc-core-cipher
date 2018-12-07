@@ -1,20 +1,43 @@
 body{
     background-color: #000000;
 }
-h1{
+header h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;    
+    float: right;
+    margin-top: 5px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+header h2{
     color:white;
     text-align: left;
-    font-family: arial, serif;
     font-size: 90px;
     border-bottom-style: solid;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 0%;
+    font-family: 'Fira Sans', sans-serif;    
+    padding-top: 0px;
+    margin-top: 20px;
+}
+#aboutTxtCh .preguntas{
+    color:white;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;    
+    border-bottom-style: solid;
+    border: thin;
+}
+#aboutTxtCh p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
 }
 #partOne{
     color: white;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;    
+    font-size: 40px;
 }
 .boton{
     background-color: #000000;
@@ -32,39 +55,44 @@ h1{
 #partTwo{
     color: white;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fira Sans', sans-serif;    
     font-size: 30px;
 }
 #partTwo h2{
     font-size: 60px;
     border-bottom-style: solid;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    margin-top: 40px;
 }
 #textoIngresado{
     font-size: 20px;
-    padding-right: 150px;
-    padding-bottom: 150px;
+    padding-right: 170px;
+    padding-bottom: 170px;
 }
 #partThree {
     color: white;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fira Sans', sans-serif;    
     font-size: 30px;  
     padding: 0px;
 }
 #partTwo h3{
     font-size: 37px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 #partThree h4{
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;    
     padding-bottom: 5px;
     border-bottom-style: solid;
     border-color: white;
 }
 #textoReady{
-    color: black;
+    color: white;
+    background-color: #000000;
+    border-color: white;
+    border-radius: 10px;
     font-size: 40px;
     margin-top: 0px;
     padding-right: 200px;
