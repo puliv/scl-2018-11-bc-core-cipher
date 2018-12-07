@@ -49,7 +49,7 @@ En la interfaz se encuentra una cita y debajo dos botones, uno contiene informac
 
 **Descarga**
 
-Por el momoento TextCucho no cuenta con enlace de descarga.
+https://puliv.github.io/scl-2018-11-bc-core-cipher.
 
 **¿Realmente funciona?**
 
