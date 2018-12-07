@@ -6,7 +6,23 @@ document.getElementById("botonUno").addEventListener("click", (evento) => {
 });
 
 document.getElementById("botonDos").addEventListener("click", (evento) =>  {
+    evento.preventDefault();
     document.getElementById("aboutTxtCh").style.display = "block";
+});
+
+document.getElementById("botonTres").addEventListener("click", (evento) => {
+    evento.preventDefault();
+
+    document.getElementById("aboutTxtCh").style.display = "none";
+});
+
+document.getElementById("volver").addEventListener("click", (evento) => {
+    evento.preventDefault();
+
+    document.getElementById("partOne").style.display = "block";
+    document.getElementById("partTwo").style.display="none";
+    document.getElementById("partThree").style.display="none";
+
 });
 
 document.getElementById("botonCifrar").addEventListener("click", (evento) => {

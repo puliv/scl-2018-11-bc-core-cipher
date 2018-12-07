@@ -21,28 +21,36 @@
     </header>
     <br>
     <section>  
-        <div id="aboutTxtCh" style="display:none;"> 
-            <h1 class="preguntas">¿Que es TxtCucho?</h1>
-         <p><img scr="abecedario.jpg" alt="abecedario">
-           Somos una plataforma que busca formas de enriquecer el ambiente laboral
-          <br>desarrollando soluciones en base a las opiniones y/o reclamos de lxs 
-          <br>funcionarixs de las distintas empresas que trabajan con nosotrxs, las 
-          <br>cuales encriptamos para mantener su privacidad a salvo.</p> 
-        
+    <div id="aboutTxtCh" style="display:none;"> 
+        <h1 class="preguntas">¿Que es TxtCucho?</h1>
+            <p>Somos una plataforma que busca enriquecer el ambiente laboral
+             desarrollando soluciones en base a las opiniones y/o reclamos de lxs 
+             funcionarixs de las distintas empresas que trabajan con nosotrxs, las 
+             cuales encriptamos para mantener su privacidad a salvo.</p> 
         <h2 class="preguntas">¿Como puedo asegurarme de que no sabran quien soy?</h2>
-        <p>Contamos con un sistema de cifrado de maxima seguridad que asegura la
-          <br>confidencialidad absoluta de los testimonios e identidad de lxs trabajadorxs.</p>
-          <br>
-        <h3 clas="preguntas">¿Como cifran texto?</h3>  
+          <p>Contamos con un sistema de cifrado de maxima seguridad que asegura la
+           confidencialidad absoluta de los testimonios e identidad de lxs trabajadorxs.</p>
+        <h3 class="preguntas">¿Como cifran texto?</h3>  
           <p>Ocupamos el metodo de Cifrado Cesar, una de las primeras modalidades de
-          <br>encriptado conocidas, creada por el Emperador romano Julio Cesar.
-          <br>Este es un tipo de cifrado por sustitución, es decir que cada letra del texto original 
-          <br>es reemplazada por otra que se encuentra un número fijo de posiciones mas 
-          <br>adelante en el mismo alfabeto</p>
+           encriptado conocidas, creada por el Emperador romano Julio Cesar.
+           Este es un tipo de cifrado por sustitución, es decir que cada letra del texto original 
+           es reemplazada por otra que se encuentra un número fijo de posiciones mas 
+           adelante en el mismo alfabeto <br>
+           En esta imagen podemos ver como funciona el cifrado; la letra "B" es desplazada 3 espacios 
+           hacia la derecha y es reemplazada por la letra "E".</p> 
+        <img src="images/imagen_cifrado.jpg" id="imagen1">
+        <br>
+        <button class="boton" id="botonTres"> Volver </button>
     </div>
     <div id="partTwo" style="display:none;"> 
       <h2>Instrucciones</h2>
-      <p>Ingresa el texto y selecciona el número de espacios para desplazar el lugar de las letras. </p>
+      <p>Ingresa el texto y selecciona el número de espacios para desplazar el lugar 
+        de las letras.</p>
+      <p id="instrucciones">- Solo se permiten letras mayusculas.
+        <br>- No se admiten "Ñ", ni ningun otro caracter que no sea una letra.</p>
+      <br>
+      <img src="images/abecdario.jpg" id="imagen2">
+      <br>
       <input 
       type="text"
       id="textoIngresado"
@@ -65,7 +73,8 @@
       <textarea id="textoReady"></textarea>
       <br>
       <!--Aqui saldrá el texto Cifrado o Decifrado-->
-      <button class="boton" id="volver">Volver</button>
+      <button class="boton" id="volver">Volver al inicio</button>
+      <button class="boton" id="enviar">Enviar</button>
     </div>
       </section>
     <script src="cipher.js"></script>
