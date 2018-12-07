@@ -5,6 +5,9 @@ document.getElementById("botonUno").addEventListener("click", (evento) => {
     document.getElementById("partTwo").style.display = "block";
 });
 
+document.getElementById("botonDos").addEventListener("click", (evento) =>  {
+    document.getElementById("aboutTxtCh").style.display = "block";
+});
 
 document.getElementById("botonCifrar").addEventListener("click", (evento) => {
     evento.preventDefault();
